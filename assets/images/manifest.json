@@ -1,0 +1,52 @@
+{
+  "name": "Deenex",
+  "short_name": "Deenex",
+  "description": "Recupera el control de tu negocio multisucursal. Crece con rentabilidad, datos propios y sin intermediarios.",
+  "start_url": "../../index.html",
+  "display": "standalone",
+  "background_color": "#695EDE",
+  "theme_color": "#695EDE",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "deenex-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "deenex-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "deenex-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "deenex-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Deenex",
+      "short_name": "Deenex",
+      "description": "Abrir Deenex",
+      "url": "../../index.html",
+      "icons": [
+        {
+          "src": "deenex-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
