@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color-scheme: light;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    color: theme('colors.ink.2');
+    background: theme('colors.surface.2');
+    -webkit-font-smoothing: antialiased;
+    font-optical-sizing: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-heading {
+    font-family: 'DM Sans', sans-serif !important;
+    font-optical-sizing: auto;
+}
+
+@layer components {
+    .btn-primary {
+        @apply inline-flex items-center gap-3 px-6 py-3.5 bg-primary text-white font-semibold rounded-[7px] border-[1.5px] border-primary transition-all duration-200 hover:bg-primary-hover hover:border-primary-hover tracking-tight;
+    }
+
+    .btn-ghost {
+        @apply inline-flex items-center gap-1.5 px-1 py-3.5 text-ink-3 font-medium transition-all duration-150 hover:text-ink tracking-tight;
+    }
+
+    .btn-nav {
+        @apply inline-flex items-center px-[1.15rem] py-[0.48rem] bg-white text-primary text-[0.82rem] font-semibold rounded-md shadow-btn transition-all duration-200 hover:bg-white/90 hover:shadow-btn-hover tracking-tight;
+    }
+}
