@@ -10,7 +10,9 @@
     --font-body: 'Inter', sans-serif;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -23,7 +25,12 @@ body {
     line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-heading);
     font-weight: 500;
     color: var(--title-color);
@@ -34,11 +41,11 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--secondary);
 }
 
-.bg-primary h1, 
-.bg-primary h2, 
-.bg-primary h3, 
-.bg-primary h4, 
-.bg-primary h5, 
+.bg-primary h1,
+.bg-primary h2,
+.bg-primary h3,
+.bg-primary h4,
+.bg-primary h5,
 .bg-primary h6 {
     color: var(--secondary);
 }
